@@ -1,0 +1,40 @@
+body {
+  background: url("/image/background-imge.jpeg");
+  width: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-column-gap: 10px;
+  grid-row-gap: 10px; */
+  grid-gap: 30px 20px;
+  grid-gap: 50px;
+}
+
+.container div {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+.container div:hover {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+
+div {
+  font-size: 18px;
+  font-weight: bold;
+  color: blue;
+  font-family: sans-serif;
+  text-align: center;
+}
+div:hover {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  font-family: sans-serif;
+}
